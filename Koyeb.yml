@@ -1,0 +1,8 @@
+name: save-bot
+services:
+  - name: save-bot-service
+    ports:
+      - 8000
+    build:
+      type: docker
+      path: .
